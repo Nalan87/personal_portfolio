@@ -18,7 +18,7 @@
     <!-- Header design section -->
     <header>
         <div class="header-nav-bar container flex">
-            <div class="logo">Portfolio</div>
+            <div class="logo">portfolio</div>
             <i class='bx bx-menu' id="Menu-card"></i>
             <nav class="nav-bar-items">
                 <a href="#home-container" id="home" class="active">Home</a>
@@ -194,80 +194,39 @@
 
         </div>
     </section>
+
+
     <section class="contact-us">
-        <div class="container flex contact-us-container">
-            <div class=" box-links">
-                <h3 class="contact-us-heading">Personal Brand</h3>
-                <div class="content">
-
-                    <p class="intro-contact">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque repellat ratione consequuntur
-                        numquam, praesentium ex. Ratione placeat omnis dolorum recusandae.
-                    </p>
-                    <div class="social-media">
-
-                    </div>
-                </div>
-            </div>
-
-            <div class="company-intro box-links">
-                <h3 class="contact-us-heading">Company</h3>
-                <div class="content">
-
-                    <ul class="contact-us-list">
-                        <li>Home</li>
-                        <li>About</li>
-                        <li>Service</li>
-                        <li>FAQ</li>
-                        <li>Review</li>
-                    </ul>
-                </div>
-            </div>
-
-            <div class="company-Explore box-links">
-                <h3 class="contact-us-heading">Explore</h3>
-                <div class="content">
-                    <ul class="contact-us-list">
-                        <li>Home</li>
-                        <li>About</li>
-                        <li>Service</li>
-                        <li>FAQ</li>
-                        <li>Review</li>
-                    </ul>
-                </div>
-            </div>
-
-            <div class="company-Explore box-links">
-                <h3 class="contact-us-heading">Get Started</h3>
-                <div class="content">
-
-                    <ul class="contact-us-list">
-                        <li>Home</li>
-                        <li>About</li>
-                        <li>Service</li>
-                        <li>FAQ</li>
-                        <li>Review</li>
-                    </ul>
-                </div>
-            </div>
+        <div class="container contact-us-container">
+   
 
             <div class="box-links">
-                <h3 class="contact-us-heading">News letter</h3>
-                <div class="content">
-                    <p class="intro-contact">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque repellat ratione consequuntur
-                        numquam, praesentium ex. Ratione placeat omnis dolorum recusandae.
-                    </p>
-                    <div class="social-media-contact">
-                        <input type="email" name="" id="emailInput" placeholder="Email">
-                        <input type="submit" value="Subscribe">
-                    </div>
+                <h3 class="contact-us-heading">Contact</h3>
+                <div class="name">
+                    <input type="text" placeholder="Name" id="name">
+                </div> 
+                <div class="name">
+                    <input type="text" placeholder="Email" id="email">
                 </div>
+                <div class="message-box">
+                    <textarea id="msg" cols="30" rows="10" placeholder="Message"></textarea>
+                </div>
+                <div class="button">
+                    <button id="send" onclick="message()">Send</button>
+                </div>
+                <div class="message">
+                    <div class="success" id="success">Your Message Successfully Sent</div>
+                    <div class="danger" id="danger">Feilds Can't be Empty!</div>
+                </div>
+    
             </div>
 
         </div>
 
     </section>
+
+
+
     <div class="script-4-header"></div>
 
     <script src="script.js"></script>
